@@ -3,13 +3,7 @@ const ourFunctions = require('./ourFunctions.js');
 
 // ===== Firebase configuration (start) ==== //
 let firebaseConfig = {
-    apiKey: "AIzaSyCrtI6Qtek4a9lnnL_KSxuk3Uj-VtvZgiQ",
-    authDomain: "scrimba-login.firebaseapp.com",
-    databaseURL: "https://scrimba-login.firebaseio.com",
-    projectId: "scrimba-login",
-    storageBucket: "scrimba-login.appspot.com",
-    messagingSenderId: "205514956606",
-    appId: "1:205514956606:web:76fb96f08e4d51ed"
+    // firebase config
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
